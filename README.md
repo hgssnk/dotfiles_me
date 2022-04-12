@@ -8,3 +8,9 @@ if filereadable(expand('~/.config/nvim/init.vim'))
   source ~/.config/nvim/init.vim
 endif
 ```
+
+check PROFILE
+```bash
+vim $PROFILE
+. C:\Users\snk_h\.config\powershell\user_profile.ps1 
+```
