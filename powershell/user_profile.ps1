@@ -12,4 +12,7 @@ Set-PoshPrompt -Theme night-owl
 Set-Alias ll ls
 Set-Alias vim nvim
 
-
+# functions
+if(Test-Path ~/.config/powershell/functions.ps1) {
+  . ~/.config/powershell/functions.ps1
+}
