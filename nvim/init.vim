@@ -2,6 +2,8 @@ set number
 set clipboard+=unnamedplus
 set shiftwidth=2
 set tabstop=2
+" set cursorline
+" highlight CursorLine ctermbg=Brown
 
 call plug#begin()
   Plug 'preservim/nerdtree'
