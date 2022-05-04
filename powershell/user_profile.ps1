@@ -6,7 +6,8 @@ Set-PSReadlineOption -EditMode Emacs
 Set-PSReadLineKeyHandler -Key Ctrl+d -Function DeleteChar
 
 # Themes
-Set-PoshPrompt -Theme night-owl
+# Set-PoshPrompt -Theme night-owl
+Set-PoshPrompt -Theme patriksvensson
 
 # Alias
 Set-Alias ll ls
